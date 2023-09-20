@@ -198,7 +198,7 @@
       <span class="close" id="closeFormBtn">&times;</span>
       <h2 class="form__header">Оформление быстрого заказа</h2>
       <h3 class="form__header">Введите ваши данные</h3>
-      <form action="https://formsubmit.co/d11062002d@gmail.com" method="POST"
+      <form action="https://formsubmit.io/send/d11062002d@gmail.com" method="POST"
           id="orderForm">
           <input type="text" name="Имя" placeholder="Имя*" required>
           <input type="tel" name="Телефон" placeholder="Телефон*" required>
@@ -208,8 +208,7 @@
           <input id="formMaterial" type="text" name="Материал" placeholder="Материал">
           <input readonly class="form__price" id="formPrice" type="text" name="Цена" value="Цена:">
           <input id="formProductHeader" type="text" hidden  value="" name="Название продукта">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://wallterra.shop/">
+          <input name="_redirect" type="hidden" id="name" value="https://wallterra.shop">
           <button class="form__order_button" type="submit">Заказать</button>
       </form>
   </div>
